@@ -18,3 +18,12 @@
 .recipes {
     list-style: none;
 }
+
+.recipesContainer {
+    display: flex;
+    list-style: none;
+}
+
+.recipesContainer li {
+    flex: 1;
+}
