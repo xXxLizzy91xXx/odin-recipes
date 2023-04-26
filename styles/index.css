@@ -3,27 +3,37 @@
 * {
     font-family: 'Montserrat', sans-serif;
     background-color: lightblue;
-}
-
-.container {
-    margin: 0 25%;
+    box-sizing: border-box;
 }
 
 .title {
+    display: flex;
+    justify-content: center;
     text-decoration: underline;
     font-size: 50px;
     text-align: center;
 }
 
-.recipes {
-    list-style: none;
-}
-
 .recipesContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-.recipesContainer li {
-    flex: 1;
+.cardpic {
+    height: 250px;
+    width: auto;
+    border-radius: 25%;
+}
+
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .recipesContainer {
+        flex-direction: row;
+    }
 }
