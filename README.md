@@ -3,4 +3,7 @@
 A basic HTML website linking some recipes 
 
 ## Objectives
-I will be showing off my HTML skills
+This project will show off my skills in 
+1. HTML
+2. CSS
+3. JavaScript
